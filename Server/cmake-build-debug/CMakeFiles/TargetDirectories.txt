@@ -1,0 +1,3 @@
+C:/ITMO/5S_cpp/Server/cmake-build-debug/CMakeFiles/Server.dir
+C:/ITMO/5S_cpp/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ITMO/5S_cpp/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

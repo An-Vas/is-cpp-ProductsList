@@ -1,0 +1,4 @@
+C:/ITMO/5S_cpp/Testing/cmake-build-debug/CMakeFiles/Testing.dir
+C:/ITMO/5S_cpp/Testing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ITMO/5S_cpp/Testing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/ITMO/5S_cpp/Testing/cmake-build-debug/CMakeFiles/Testing_autogen.dir
