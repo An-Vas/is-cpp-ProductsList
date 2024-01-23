@@ -1,5 +1,5 @@
-#ifndef TESTING_MAINWINDOWTESTING_H
-#define TESTING_MAINWINDOWTESTING_H
+#ifndef CLIENTTESTING_MAINWINDOWTESTING_H
+#define CLIENTTESTING_MAINWINDOWTESTING_H
 
 #include <QVBoxLayout>
 #include <QtTest/QtTest>
@@ -7,14 +7,14 @@
 #include "UserActivityHandler.h"
 
 class MainWindowTesting : public QObject {
-Q_OBJECT
+    Q_OBJECT
 private slots:
     void test_set_product_list() {
 
-        net::io_context ioc;
-        Client client(ioc, {tcp::v4(), 8080});
-        UserActivityHandler handler(client);
-        WindowSetup windowSetup(0, nullptr, handler);
+//        net::io_context ioc;
+//        Client client(ioc, {tcp::v4(), 8080});
+//        UserActivityHandler handler(client);
+//        WindowSetup windowSetup(0, nullptr, handler);
 
 
         QTextEdit productsTextEdit;
@@ -39,4 +39,4 @@ private slots:
 };
 
 
-#endif //TESTING_MAINWINDOWTESTING_H
+#endif //CLIENTTESTING_MAINWINDOWTESTING_H
